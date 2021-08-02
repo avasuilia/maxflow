@@ -1,17 +1,11 @@
 # Implementation of algorithms for solving the maximum flow problem
 The following algorithms are implemented:<br/>
-<ol>
-<li>
-Push-relabel algorithm
-</li>
-<li>
-Relabel-to-front algorithm
-</li>
-</ol>
-<br/>
-Example:
+1. Push-relabel algorithm
+1. Relabel-to-front algorithm
 
-```
+Example uses:
+
+```python
 from flow_network import FlowNetwork
 from push_relabel import PushRelabel
 
